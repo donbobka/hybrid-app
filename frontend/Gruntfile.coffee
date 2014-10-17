@@ -240,3 +240,7 @@ module.exports = (grunt) ->
   #require("load-grunt-tasks") grunt
   grunt.loadTasks "tasks"
 
+  grunt.registerTask "heroku", [
+    "build:dist"
+  ]
+
