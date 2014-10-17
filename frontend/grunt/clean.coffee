@@ -1,6 +1,8 @@
 module.exports =
   clean:
     dist:
+      options:
+        force: true
       files: [
         dot: true
         src: [
